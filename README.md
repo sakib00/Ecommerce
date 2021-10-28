@@ -2,7 +2,7 @@
 
 ![Home page](/public/images/Homepage.png)
 
-This was an university group project for the semester of Spring'20. I worked on both the front-end and back-end of the project. For the front-end of the I worked on developing various views like, homepages, product pages and other pages using HTML, SCSS and Bootstrap. And for the back-end of the website, I worked on various controller functions, migrations and seeders.
+This was an university group project for the semester of Spring'20. I worked on both the front-end and back-end of the project. For the front-end of the I worked on developing various views like, homepages, product pages and other pages using HTML, SCSS and Bootstrap. And for the back-end of the website, I worked on designing the database, various controller functions, migrations and seeders.
 
 _status: Complete_
 
@@ -11,7 +11,7 @@ _status: Complete_
 After you have cloned the repo, run **composer install and npm install** to install the dependencies.
 
 ```bash
-composer install 
+composer install
 
 npm install
 ```
@@ -23,6 +23,7 @@ cp .env.example .env
 
 php artisan key:generate
 ```
+
 Then update the database name from the .env file
 
 and run **php artisan migrate:refresh --seed** to seed the database
@@ -31,7 +32,7 @@ and run **php artisan migrate:refresh --seed** to seed the database
 php artisan migrate:refresh --seed
 ```
 
-Finally run **php artisan serve** to run the project 
+Finally run **php artisan serve** to run the project
 
 ```bash
 php artisan serve
